@@ -1,0 +1,2198 @@
+{
+    "Core": {
+        "Name": "Arduino/Genuino Zero (Programming Port)",
+        "SourceDirectory": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+        "ArchiveFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\core.a",
+        "Invocations": [
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero\\variant.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\variant.cpp.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero\\variant.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\variant.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\pulse_asm.S",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\pulse_asm.S.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-x",
+                    "assembler-with-cpp",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\pulse_asm.S",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\pulse_asm.S.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\WInterrupts.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\WInterrupts.c.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\WInterrupts.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\WInterrupts.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\cortex_handlers.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\cortex_handlers.c.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\cortex_handlers.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\cortex_handlers.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\delay.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\delay.c.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\delay.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\delay.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\hooks.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\hooks.c.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\hooks.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\hooks.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\itoa.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\itoa.c.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\itoa.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\itoa.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\pulse.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\pulse.c.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\pulse.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\pulse.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\startup.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\startup.c.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\startup.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\startup.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\wiring.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\wiring.c.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\wiring.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\wiring.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\wiring_analog.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\wiring_analog.c.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\wiring_analog.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\wiring_analog.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\wiring_digital.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\wiring_digital.c.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\wiring_digital.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\wiring_digital.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\wiring_private.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\wiring_private.c.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\wiring_private.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\wiring_private.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\wiring_shift.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\wiring_shift.c.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\wiring_shift.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\wiring_shift.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\USB\\samd21_host.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\USB\\samd21_host.c.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\USB\\samd21_host.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\USB\\samd21_host.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\avr\\dtostrf.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\avr\\dtostrf.c.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\avr\\dtostrf.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\avr\\dtostrf.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\IPAddress.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\IPAddress.cpp.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\IPAddress.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\IPAddress.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\Print.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\Print.cpp.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\Print.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\Print.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\Reset.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\Reset.cpp.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\Reset.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\Reset.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\SERCOM.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\SERCOM.cpp.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\SERCOM.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\SERCOM.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\Stream.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\Stream.cpp.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\Stream.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\Stream.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\Tone.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\Tone.cpp.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\Tone.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\Tone.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\Uart.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\Uart.cpp.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\Uart.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\Uart.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\WMath.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\WMath.cpp.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\WMath.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\WMath.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\WString.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\WString.cpp.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\WString.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\WString.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\abi.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\abi.cpp.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\abi.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\abi.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\main.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\main.cpp.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\main.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\main.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\new.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\new.cpp.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\new.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\new.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\USB\\CDC.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\USB\\CDC.cpp.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\USB\\CDC.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\USB\\CDC.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\USB\\PluggableUSB.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\USB\\PluggableUSB.cpp.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\USB\\PluggableUSB.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\USB\\PluggableUSB.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\USB\\USBCore.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\USB\\USBCore.cpp.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino\\USB\\USBCore.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\core\\USB\\USBCore.cpp.o"
+                ]
+            }
+        ]
+    },
+    "Sketch": {
+        "Name": "",
+        "SourceDirectory": "",
+        "ArchiveFile": "",
+        "Invocations": [
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\sketch\\ArduinoZeroDebugging.ino.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\sketch\\ArduinoZeroDebugging.ino.cpp.o",
+                "Arguments": [
+                    "-mcpu=cortex-m0plus",
+                    "-mthumb",
+                    "-c",
+                    "-g",
+                    "-O0",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-fno-threadsafe-statics",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-MMD",
+                    "-DF_CPU=48000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAMD_ZERO",
+                    "-DARDUINO_ARCH_SAMD",
+                    "-D__SAMD21G18A__",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x804d",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Zero\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\sketch\\ArduinoZeroDebugging.ino.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\\sketch\\ArduinoZeroDebugging.ino.cpp.o"
+                ]
+            }
+        ]
+    },
+    "Libraries": null,
+    "KnownHeaders": [
+        {
+            "Name": "Usb.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\USBHost\\src"
+            ]
+        },
+        {
+            "Name": "address.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\USBHost\\src"
+            ]
+        },
+        {
+            "Name": "hidboot.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\USBHost\\src"
+            ]
+        },
+        {
+            "Name": "printhex.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\USBHost\\src"
+            ]
+        },
+        {
+            "Name": "sink_parser.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\USBHost\\src"
+            ]
+        },
+        {
+            "Name": "usbhub.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\USBHost\\src"
+            ]
+        },
+        {
+            "Name": "Wire.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\Wire"
+            ]
+        },
+        {
+            "Name": "HID.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\HID"
+            ]
+        },
+        {
+            "Name": "SAMD_AnalogCorrection.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\SAMD_AnalogCorrection\\src"
+            ]
+        },
+        {
+            "Name": "SDU.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\SDU\\src"
+            ]
+        },
+        {
+            "Name": "SPI.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\SPI"
+            ]
+        },
+        {
+            "Name": "message.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\USBHost\\src"
+            ]
+        },
+        {
+            "Name": "usb_ch9.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\USBHost\\src"
+            ]
+        },
+        {
+            "Name": "parsetools.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\USBHost\\src"
+            ]
+        },
+        {
+            "Name": "KeyboardController.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\USBHost\\src"
+            ]
+        },
+        {
+            "Name": "adk.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\USBHost\\src"
+            ]
+        },
+        {
+            "Name": "hexdump.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\USBHost\\src"
+            ]
+        },
+        {
+            "Name": "hid.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\USBHost\\src"
+            ]
+        },
+        {
+            "Name": "hiduniversal.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\USBHost\\src"
+            ]
+        },
+        {
+            "Name": "hidusagestr.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\USBHost\\src"
+            ]
+        },
+        {
+            "Name": "I2S.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\I2S\\src"
+            ]
+        },
+        {
+            "Name": "MouseController.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\USBHost\\src"
+            ]
+        },
+        {
+            "Name": "UsbCore.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\USBHost\\src"
+            ]
+        },
+        {
+            "Name": "confdescparser.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\USBHost\\src"
+            ]
+        },
+        {
+            "Name": "hidescriptorparser.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\USBHost\\src"
+            ]
+        },
+        {
+            "Name": "macros.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\USBHost\\src"
+            ]
+        }
+    ],
+    "Prototypes": [
+        {
+            "FunctionName": "setup",
+            "File": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\sketches\\ArduinoZeroDebugging.ino",
+            "Prototype": "void setup();",
+            "Modifiers": "",
+            "Line": 1
+        },
+        {
+            "FunctionName": "loop",
+            "File": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\sketches\\ArduinoZeroDebugging.ino",
+            "Prototype": "void loop();",
+            "Modifiers": "",
+            "Line": 6
+        }
+    ],
+    "KnownLibraries": [
+        {
+            "Folder": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\I2S",
+            "SrcFolder": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\I2S\\src",
+            "UtilityFolder": "",
+            "Layout": 2,
+            "Name": "I2S",
+            "RealName": "I2S",
+            "IsLegacy": false,
+            "Version": "1.0",
+            "Author": "Arduino",
+            "Maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+            "Sentence": "Enables the communication with devices that use the Inter-IC Sound (I2S) Bus. Specific implementation for Arduino Zero.",
+            "Paragraph": "-",
+            "URL": "http://www.arduino.cc/en/Reference/I2S",
+            "Category": "Communication",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\USBHost",
+            "SrcFolder": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\USBHost\\src",
+            "UtilityFolder": "",
+            "Layout": 2,
+            "Name": "USBHost",
+            "RealName": "USBHost",
+            "IsLegacy": false,
+            "Version": "1.0",
+            "Author": "Arduino",
+            "Maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+            "Sentence": "Allows the communication with USB peripherals like mice, keyboards, and thumbdrives. For Arduino MKR1000 and Zero.",
+            "Paragraph": "The USBHost library allows the board to appear as a USB host, enabling it to communicate with peripherals like USB mice and keyboards. USBHost does not support devices that are connected through USB hubs. This includes some keyboards that have an internal hub.",
+            "URL": "http://arduino.cc/en/Reference/USBHost",
+            "Category": "Other",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\Wire",
+            "SrcFolder": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\Wire",
+            "UtilityFolder": "",
+            "Layout": 1,
+            "Name": "Wire",
+            "RealName": "Wire",
+            "IsLegacy": false,
+            "Version": "1.0",
+            "Author": "Jonathan BAUDIN, Thibaut VIARD, Arduino",
+            "Maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+            "Sentence": "Allows the communication between devices or sensors connected via Two Wire Interface Bus. Specific implementation for Arduino Zero.",
+            "Paragraph": "-",
+            "URL": "http://www.arduino.cc/en/Reference/Wire",
+            "Category": "Communication",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\HID",
+            "SrcFolder": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\HID",
+            "UtilityFolder": "",
+            "Layout": 1,
+            "Name": "HID",
+            "RealName": "HID",
+            "IsLegacy": false,
+            "Version": "1.0",
+            "Author": "Arduino",
+            "Maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+            "Sentence": "Module for PluggableUSB infrastructure. Exposes an API for devices like Keyboards, Mice and Gamepads",
+            "Paragraph": "-",
+            "URL": "http://www.arduino.cc/en/Reference/HID",
+            "Category": "Other",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\SAMD_AnalogCorrection",
+            "SrcFolder": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\SAMD_AnalogCorrection\\src",
+            "UtilityFolder": "",
+            "Layout": 2,
+            "Name": "SAMD_AnalogCorrection",
+            "RealName": "SAMD_AnalogCorrection",
+            "IsLegacy": false,
+            "Version": "1.0",
+            "Author": "Arduino",
+            "Maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+            "Sentence": "Sets and enables the digital correction logic of the SAMD ADC.",
+            "Paragraph": "Useful to correct the values returned by the ADC.",
+            "URL": "-",
+            "Category": "Other",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\SDU",
+            "SrcFolder": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\SDU\\src",
+            "UtilityFolder": "",
+            "Layout": 2,
+            "Name": "SDU",
+            "RealName": "SDU",
+            "IsLegacy": false,
+            "Version": "1.0.0",
+            "Author": "Arduino",
+            "Maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+            "Sentence": "Update the sketch on your board from an SD card",
+            "Paragraph": "Requires an SD card",
+            "URL": "http://www.arduino.cc/en/Reference/SDU",
+            "Category": "Other",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\SPI",
+            "SrcFolder": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\libraries\\SPI",
+            "UtilityFolder": "",
+            "Layout": 1,
+            "Name": "SPI",
+            "RealName": "SPI",
+            "IsLegacy": false,
+            "Version": "1.0",
+            "Author": "Jonathan BAUDIN, Thibaut VIARD, Arduino",
+            "Maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+            "Sentence": "Enables the communication with devices that use the Serial Peripheral Interface (SPI) Bus. Specific implementation for Arduino Zero.",
+            "Paragraph": "-",
+            "URL": "http://www.arduino.cc/en/Reference/SPI",
+            "Category": "Communication",
+            "License": "Unspecified"
+        }
+    ],
+    "LinkerCommandLine": "\"C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++\"  \"-LC:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug\" -Os -Wl,--gc-sections -save-temps  \"-TC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero/linker_scripts/gcc/flash_with_bootloader.ld\" \"-Wl,-Map,C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug/ArduinoZeroDebugging.ino.map\" --specs=nano.specs --specs=nosys.specs -mcpu=cortex-m0plus -mthumb -Wl,--cref -Wl,--check-sections -Wl,--gc-sections -Wl,--unresolved-symbols=report-all -Wl,--warn-common -Wl,--warn-section-align -o \"C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug/ArduinoZeroDebugging.ino.elf\" {object_files} -Wl,--start-group \"-LC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Lib/GCC/\" -larm_cortexM0l_math -lm \"C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug/{archive_file}\" -Wl,--end-group",
+    "BuildProperties": [
+        {
+            "Key": "runtime.tools.arduinoOTA.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arduinoOTA\\1.2.0"
+        },
+        {
+            "Key": "compiler.warning_flags.more",
+            "Value": "-Wall"
+        },
+        {
+            "Key": "runtime.tools.bossac-1.7.0.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\bossac\\1.7.0"
+        },
+        {
+            "Key": "runtime.tools.arduinoOTA-1.2.0.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arduinoOTA\\1.2.0"
+        },
+        {
+            "Key": "build.arch",
+            "Value": "SAMD"
+        },
+        {
+            "Key": "tools.avrdude.network_cmd",
+            "Value": "{runtime.tools.arduinoOTA.path}/bin/arduinoOTA"
+        },
+        {
+            "Key": "compiler.warning_flags.none",
+            "Value": "-w"
+        },
+        {
+            "Key": "build.ldscript",
+            "Value": "linker_scripts/gcc/flash_with_bootloader.ld"
+        },
+        {
+            "Key": "build.pid",
+            "Value": "0x804d"
+        },
+        {
+            "Key": "runtime.platform.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20"
+        },
+        {
+            "Key": "archive_file_path",
+            "Value": "{build.path}/{archive_file}"
+        },
+        {
+            "Key": "tools.openocd-withbootsize.bootloader.params.verbose",
+            "Value": "-d2"
+        },
+        {
+            "Key": "tools.openocd.upload.params.verbose",
+            "Value": "-d2"
+        },
+        {
+            "Key": "runtime.tools.CMSIS-Atmel-1.1.0.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0"
+        },
+        {
+            "Key": "build.variant",
+            "Value": "arduino_zero"
+        },
+        {
+            "Key": "runtime.tools.arm-none-eabi-gcc-4.8.3-2014q1.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1"
+        },
+        {
+            "Key": "tools.openocd.network_cmd",
+            "Value": "{runtime.tools.arduinoOTA.path}/bin/arduinoOTA"
+        },
+        {
+            "Key": "build.usb_product",
+            "Value": "\"Arduino Zero\""
+        },
+        {
+            "Key": "recipe.cpp.o.pattern",
+            "Value": "\"{compiler.path}{compiler.cpp.cmd}\" {compiler.cpp.flags} -DF_CPU={build.f_cpu} -DARDUINO={runtime.ide.version} -DARDUINO_{build.board} -DARDUINO_ARCH_{build.arch} {compiler.cpp.extra_flags} {build.extra_flags} {compiler.arm.cmsis.c.flags} {includes} \"{source_file}\" -o \"{object_file}\""
+        },
+        {
+            "Key": "tools.openocd.program.pattern",
+            "Value": "\"{path}/{cmd}\" {program.verbose} -s \"{path}/share/openocd/scripts/\" -f \"{runtime.platform.path}/variants/{build.variant}/{build.openocdscript}\" -c \"telnet_port disabled; program {{{build.path}/{build.project_name}.elf}} verify reset; shutdown\""
+        },
+        {
+            "Key": "build.f_cpu",
+            "Value": "48000000L"
+        },
+        {
+            "Key": "build.core",
+            "Value": "arduino"
+        },
+        {
+            "Key": "recipe.c.o.pattern",
+            "Value": "\"{compiler.path}{compiler.c.cmd}\" {compiler.c.flags} -DF_CPU={build.f_cpu} -DARDUINO={runtime.ide.version} -DARDUINO_{build.board} -DARDUINO_ARCH_{build.arch} {compiler.c.extra_flags} {build.extra_flags} {compiler.arm.cmsis.c.flags} {includes} \"{source_file}\" -o \"{object_file}\""
+        },
+        {
+            "Key": "extra.time.zone",
+            "Value": "3600"
+        },
+        {
+            "Key": "compiler.elf2hex.hex.flags",
+            "Value": "-O ihex -R .eeprom"
+        },
+        {
+            "Key": "tools.openocd-withbootsize.program.params.verbose",
+            "Value": "-d2"
+        },
+        {
+            "Key": "build.preferred_out_format",
+            "Value": "bin"
+        },
+        {
+            "Key": "tools.avrdude.upload.params.noverify",
+            "Value": "-V"
+        },
+        {
+            "Key": "tools.openocd.upload.params.quiet",
+            "Value": "-d0"
+        },
+        {
+            "Key": "tools.openocd.erase.params.verbose",
+            "Value": "-d3"
+        },
+        {
+            "Key": "preproc.macros.flags",
+            "Value": "-w -x c++ -E -CC"
+        },
+        {
+            "Key": "build.vid",
+            "Value": "0x2341"
+        },
+        {
+            "Key": "compiler.c.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "runtime.tools.CMSIS-4.5.0.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0"
+        },
+        {
+            "Key": "upload.wait_for_upload_port",
+            "Value": "false"
+        },
+        {
+            "Key": "tools.openocd-withbootsize.cmd",
+            "Value": "bin/openocd.exe"
+        },
+        {
+            "Key": "extra.time.local",
+            "Value": "1548533452"
+        },
+        {
+            "Key": "upload.tool",
+            "Value": "openocd"
+        },
+        {
+            "Key": "runtime.tools.ctags.path",
+            "Value": "C:\\Program Files (x86)\\Sysprogs\\VisualGDB\\Arduino\\tools-builder\\ctags\\5.8-arduino11"
+        },
+        {
+            "Key": "runtime.tools.arm-none-eabi-gcc.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1"
+        },
+        {
+            "Key": "compiler.path",
+            "Value": "{runtime.tools.arm-none-eabi-gcc-4.8.3-2014q1.path}/bin/"
+        },
+        {
+            "Key": "build.openocdscript",
+            "Value": "openocd_scripts/arduino_zero.cfg"
+        },
+        {
+            "Key": "compiler.elf2hex.bin.flags",
+            "Value": "-O binary"
+        },
+        {
+            "Key": "pid.0",
+            "Value": "0x2157"
+        },
+        {
+            "Key": "build.extra_flags",
+            "Value": "-D__SAMD21G18A__ {build.usb_flags}"
+        },
+        {
+            "Key": "tools.ctags.cmd.path",
+            "Value": "{path}/ctags"
+        },
+        {
+            "Key": "tools.ctags.pattern",
+            "Value": "\"{cmd.path}\" -u --language-force=c++ -f - --c++-kinds=svpf --fields=KSTtzns --line-directives \"{source_file}\""
+        },
+        {
+            "Key": "runtime.tools.bossac-1.6.1-arduino.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\bossac\\1.6.1-arduino"
+        },
+        {
+            "Key": "build.core.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\cores\\arduino"
+        },
+        {
+            "Key": "tools.openocd-withbootsize.erase.params.verbose",
+            "Value": "-d3"
+        },
+        {
+            "Key": "upload.native_usb",
+            "Value": "false"
+        },
+        {
+            "Key": "recipe.c.combine.pattern",
+            "Value": "\"{compiler.path}{compiler.c.elf.cmd}\"  \"-L{build.path}\" {compiler.c.elf.flags} {compiler.c.elf.extra_flags} \"-T{build.variant.path}/{build.ldscript}\" \"-Wl,-Map,{build.path}/{build.project_name}.map\" --specs=nano.specs --specs=nosys.specs {compiler.ldflags} -o \"{build.path}/{build.project_name}.elf\" {object_files} -Wl,--start-group {compiler.arm.cmsis.ldflags} -lm \"{build.path}/{archive_file}\" -Wl,--end-group"
+        },
+        {
+            "Key": "vid.0",
+            "Value": "0x03eb"
+        },
+        {
+            "Key": "build.fqbn",
+            "Value": "arduino:samd:arduino_zero_edbg"
+        },
+        {
+            "Key": "recipe.size.pattern",
+            "Value": "\"{compiler.path}{compiler.size.cmd}\" -A \"{build.path}/{build.project_name}.elf\""
+        },
+        {
+            "Key": "tools.avrdude.upload.network_pattern",
+            "Value": "\"{network_cmd}\" -address {serial.port} -port 65280 -username arduino -password \"{network.password}\" -sketch \"{build.path}/{build.project_name}.bin\" -upload /sketch -b"
+        },
+        {
+            "Key": "recipe.output.save_file",
+            "Value": "{build.project_name}.{build.variant}.{build.preferred_out_format}"
+        },
+        {
+            "Key": "compiler.S.cmd",
+            "Value": "arm-none-eabi-gcc"
+        },
+        {
+            "Key": "compiler.objcopy.eep.flags",
+            "Value": "-O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0"
+        },
+        {
+            "Key": "compiler.elf2hex.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "compiler.ar.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "tools.openocd.bootloader.params.verbose",
+            "Value": "-d2"
+        },
+        {
+            "Key": "tools.bossac.upload.pattern",
+            "Value": "\"{path}/{cmd}\" {upload.verbose} --port={serial.port.file} -U {upload.native_usb} -i -e -w -v \"{build.path}/{build.project_name}.bin\" -R"
+        },
+        {
+            "Key": "build.usb_manufacturer",
+            "Value": "\"Arduino LLC\""
+        },
+        {
+            "Key": "compiler.warning_flags",
+            "Value": "-w"
+        },
+        {
+            "Key": "runtime.tools.stm32tools-2018.12.3.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\stm32duino\\tools\\stm32tools\\2018.12.3"
+        },
+        {
+            "Key": "runtime.tools.bossac.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\bossac\\1.7.0"
+        },
+        {
+            "Key": "compiler.define",
+            "Value": "-DARDUINO="
+        },
+        {
+            "Key": "software",
+            "Value": "ARDUINO"
+        },
+        {
+            "Key": "compiler.warning_flags.default",
+            "Value": ""
+        },
+        {
+            "Key": "tools.bossac.path",
+            "Value": "{runtime.tools.bossac-1.7.0.path}"
+        },
+        {
+            "Key": "tools.avrdude.path",
+            "Value": "{runtime.tools.avrdude.path}"
+        },
+        {
+            "Key": "tools.bossac_remote.upload.pattern",
+            "Value": "/usr/bin/run-bossac {upload.verbose} --port=ttyATH0 -U {upload.native_usb} -e -w -v /tmp/sketch.bin -R"
+        },
+        {
+            "Key": "compiler.arm.cmsis.ldflags",
+            "Value": "\"-L{runtime.tools.CMSIS-4.5.0.path}/CMSIS/Lib/GCC/\" -larm_cortexM0l_math"
+        },
+        {
+            "Key": "tools.openocd-withbootsize.bootloader.params.quiet",
+            "Value": "-d0"
+        },
+        {
+            "Key": "tools.openocd-withbootsize.program.pattern",
+            "Value": "\"{path}/{cmd}\" {program.verbose} -s \"{path}/share/openocd/scripts/\" -f \"{runtime.platform.path}/variants/{build.variant}/{build.openocdscript}\" -c \"telnet_port disabled; program {{{build.path}/{build.project_name}.elf}} verify reset; shutdown\""
+        },
+        {
+            "Key": "runtime.tools.STM32Tools-1.2.0.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\STM32\\tools\\STM32Tools\\1.2.0"
+        },
+        {
+            "Key": "recipe.ar.pattern",
+            "Value": "\"{compiler.path}{compiler.ar.cmd}\" {compiler.ar.flags} {compiler.ar.extra_flags} \"{archive_file_path}\" \"{object_file}\""
+        },
+        {
+            "Key": "tools.openocd.bootloader.pattern",
+            "Value": "\"{path}/{cmd}\" {bootloader.verbose} -s \"{path}/share/openocd/scripts/\" -f \"{runtime.platform.path}/variants/{build.variant}/{build.openocdscript}\" -c \"telnet_port disabled; init; halt; at91samd bootloader 0; program {{{runtime.platform.path}/bootloaders/{bootloader.file}}} verify reset; shutdown\""
+        },
+        {
+            "Key": "compiler.cpp.cmd",
+            "Value": "arm-none-eabi-g++"
+        },
+        {
+            "Key": "compiler.elf2hex.cmd",
+            "Value": "arm-none-eabi-objcopy"
+        },
+        {
+            "Key": "bootloader.tool",
+            "Value": "openocd"
+        },
+        {
+            "Key": "tools.openocd-withbootsize.path",
+            "Value": "{runtime.tools.openocd-0.9.0-arduino6-static.path}"
+        },
+        {
+            "Key": "tools.openocd-withbootsize.erase.params.quiet",
+            "Value": "-d0"
+        },
+        {
+            "Key": "tools.openocd.erase.params.quiet",
+            "Value": "-d0"
+        },
+        {
+            "Key": "compiler.objcopy.cmd",
+            "Value": "arm-none-eabi-objcopy"
+        },
+        {
+            "Key": "tools.bossac.cmd",
+            "Value": "bossac.exe"
+        },
+        {
+            "Key": "recipe.output.tmp_file",
+            "Value": "{build.project_name}.{build.preferred_out_format}"
+        },
+        {
+            "Key": "build.system.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\system"
+        },
+        {
+            "Key": "compiler.c.cmd",
+            "Value": "arm-none-eabi-gcc"
+        },
+        {
+            "Key": "upload.use_1200bps_touch",
+            "Value": "false"
+        },
+        {
+            "Key": "compiler.c.elf.cmd",
+            "Value": "arm-none-eabi-g++"
+        },
+        {
+            "Key": "tools.openocd-withbootsize.erase.pattern",
+            "Value": ""
+        },
+        {
+            "Key": "tools.bossac.upload.params.verbose",
+            "Value": "-i -d"
+        },
+        {
+            "Key": "compiler.c.elf.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "tools.avrdude_remote.upload.pattern",
+            "Value": "\"openocd --version 2\u003e\u00261 | grep 2016 \u0026\u0026 if opkg update; then opkg upgrade openocd; exit 1; else echo 'Please connect your board to the Internet in order to upgrade tools' \u003e\u00262; exit 1; fi || /usr/bin/run-avrdude /tmp/sketch.hex\""
+        },
+        {
+            "Key": "tools.openocd.bootloader.params.quiet",
+            "Value": "-d0"
+        },
+        {
+            "Key": "build.project_name",
+            "Value": "ArduinoZeroDebugging.ino"
+        },
+        {
+            "Key": "build.source.path",
+            "Value": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\sketches"
+        },
+        {
+            "Key": "tools.bossac.upload.params.quiet",
+            "Value": ""
+        },
+        {
+            "Key": "compiler.ldflags",
+            "Value": "-mcpu={build.mcu} -mthumb -Wl,--cref -Wl,--check-sections -Wl,--gc-sections -Wl,--unresolved-symbols=report-all -Wl,--warn-common -Wl,--warn-section-align"
+        },
+        {
+            "Key": "compiler.S.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "tools.bossac.network_cmd",
+            "Value": "{runtime.tools.arduinoOTA.path}/bin/arduinoOTA"
+        },
+        {
+            "Key": "extra.time.dst",
+            "Value": "0"
+        },
+        {
+            "Key": "recipe.size.regex",
+            "Value": "\\.text\\s+([0-9]+).*"
+        },
+        {
+            "Key": "runtime.ide.version",
+            "Value": "10600"
+        },
+        {
+            "Key": "tools.openocd.program.params.verbose",
+            "Value": "-d2"
+        },
+        {
+            "Key": "tools.openocd-withbootsize.upload.params.quiet",
+            "Value": "-d0"
+        },
+        {
+            "Key": "tools.avrdude.upload.params.verbose",
+            "Value": "-v -v"
+        },
+        {
+            "Key": "extra.time.utc",
+            "Value": "1548529852"
+        },
+        {
+            "Key": "tools.openocd.upload.network_pattern",
+            "Value": "{network_cmd} -address {serial.port} -port 65280 -username arduino -password \"{network.password}\" -sketch \"{build.path}/{build.project_name}.bin\" -upload /sketch -b"
+        },
+        {
+            "Key": "version",
+            "Value": "1.6.20"
+        },
+        {
+            "Key": "compiler.ar.cmd",
+            "Value": "arm-none-eabi-ar"
+        },
+        {
+            "Key": "tools.openocd-withbootsize.bootloader.pattern",
+            "Value": "\"{path}/{cmd}\" {bootloader.verbose} -s \"{path}/share/openocd/scripts/\" -f \"{runtime.platform.path}/variants/{build.variant}/{build.openocdscript}\" -c \"telnet_port disabled; init; halt; at91samd bootloader 0; program {{{runtime.platform.path}/bootloaders/{bootloader.file}}} verify reset; shutdown\""
+        },
+        {
+            "Key": "build.usb_flags",
+            "Value": "-DUSB_VID={build.vid} -DUSB_PID={build.pid} -DUSBCON '-DUSB_MANUFACTURER={build.usb_manufacturer}' '-DUSB_PRODUCT={build.usb_product}'"
+        },
+        {
+            "Key": "_id",
+            "Value": "arduino_zero_edbg"
+        },
+        {
+            "Key": "runtime.hardware.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd"
+        },
+        {
+            "Key": "compiler.warning_flags.all",
+            "Value": "-Wall -Wextra"
+        },
+        {
+            "Key": "compiler.cpp.flags",
+            "Value": "-mcpu={build.mcu} -mthumb -c -g -Os {compiler.warning_flags} -std=gnu++11 -ffunction-sections -fdata-sections -fno-threadsafe-statics -nostdlib --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD"
+        },
+        {
+            "Key": "tools.openocd.erase.pattern",
+            "Value": ""
+        },
+        {
+            "Key": "build.variant_system_lib",
+            "Value": ""
+        },
+        {
+            "Key": "compiler.c.flags",
+            "Value": "-mcpu={build.mcu} -mthumb -c -g -Os {compiler.warning_flags} -std=gnu11 -ffunction-sections -fdata-sections -nostdlib --param max-inline-insns-single=500 -MMD"
+        },
+        {
+            "Key": "tools.openocd-withbootsize.upload.params.verbose",
+            "Value": "-d2"
+        },
+        {
+            "Key": "build.variant.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\samd\\1.6.20\\variants\\arduino_zero"
+        },
+        {
+            "Key": "compiler.readelf.cmd",
+            "Value": "arm-none-eabi-readelf"
+        },
+        {
+            "Key": "tools.openocd.program.params.quiet",
+            "Value": "-d0"
+        },
+        {
+            "Key": "name",
+            "Value": "Arduino/Genuino Zero (Programming Port)"
+        },
+        {
+            "Key": "build.board",
+            "Value": "SAMD_ZERO"
+        },
+        {
+            "Key": "tools.avrdude.cmd",
+            "Value": "{path}/bin/avrdude"
+        },
+        {
+            "Key": "runtime.tools.CMSIS-5.3.0.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\STM32\\tools\\CMSIS\\5.3.0"
+        },
+        {
+            "Key": "tools.avrdude.config.path",
+            "Value": "{path}/etc/avrdude.conf"
+        },
+        {
+            "Key": "tools.openocd.upload.pattern",
+            "Value": "\"{path}/{cmd}\" {upload.verbose} -s \"{path}/share/openocd/scripts/\" -f \"{runtime.platform.path}/variants/{build.variant}/{build.openocdscript}\" -c \"telnet_port disabled; program {{{build.path}/{build.project_name}.bin}} verify reset 0x2000; shutdown\""
+        },
+        {
+            "Key": "build.path",
+            "Value": "C:\\Users\\Andreas\\source\\repos\\ArduinoZeroDebugging\\ArduinoZeroDebugging\\Output\\Arduino_Genuino_Zero__Programming_Port_\\Debug"
+        },
+        {
+            "Key": "runtime.os",
+            "Value": "windows"
+        },
+        {
+            "Key": "tools.bossac.upload.network_pattern",
+            "Value": "\"{network_cmd}\" -address {serial.port} -port 65280 -username arduino -password \"{network.password}\" -sketch \"{build.path}/{build.project_name}.bin\" -upload /sketch -b"
+        },
+        {
+            "Key": "runtime.tools.openocd.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\openocd\\0.9.0-arduino6-static"
+        },
+        {
+            "Key": "tools.avrdude.upload.params.quiet",
+            "Value": "-q -q"
+        },
+        {
+            "Key": "build.mcu",
+            "Value": "cortex-m0plus"
+        },
+        {
+            "Key": "compiler.ar.flags",
+            "Value": "rcs"
+        },
+        {
+            "Key": "upload.maximum_size",
+            "Value": "262144"
+        },
+        {
+            "Key": "tools.ctags.path",
+            "Value": "{runtime.tools.ctags.path}"
+        },
+        {
+            "Key": "compiler.arm.cmsis.c.flags",
+            "Value": "\"-I{runtime.tools.CMSIS-4.5.0.path}/CMSIS/Include/\" \"-I{runtime.tools.CMSIS-Atmel-1.1.0.path}/CMSIS/Device/ATMEL/\""
+        },
+        {
+            "Key": "compiler.c.elf.flags",
+            "Value": "-Os -Wl,--gc-sections -save-temps"
+        },
+        {
+            "Key": "recipe.objcopy.hex.pattern",
+            "Value": "\"{compiler.path}{compiler.elf2hex.cmd}\" {compiler.elf2hex.hex.flags} {compiler.elf2hex.extra_flags} \"{build.path}/{build.project_name}.elf\" \"{build.path}/{build.project_name}.hex\""
+        },
+        {
+            "Key": "recipe.S.o.pattern",
+            "Value": "\"{compiler.path}{compiler.S.cmd}\" {compiler.S.flags} -DF_CPU={build.f_cpu} -DARDUINO={runtime.ide.version} -DARDUINO_{build.board} -DARDUINO_ARCH_{build.arch} {compiler.S.extra_flags} {build.extra_flags} {compiler.arm.cmsis.c.flags} {includes} \"{source_file}\" -o \"{object_file}\""
+        },
+        {
+            "Key": "runtime.tools.openocd-0.9.0-arduino6-static.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\openocd\\0.9.0-arduino6-static"
+        },
+        {
+            "Key": "tools.openocd.path",
+            "Value": "{runtime.tools.openocd-0.9.0-arduino6-static.path}"
+        },
+        {
+            "Key": "recipe.objcopy.bin.pattern",
+            "Value": "\"{compiler.path}{compiler.elf2hex.cmd}\" {compiler.elf2hex.bin.flags} {compiler.elf2hex.extra_flags} \"{build.path}/{build.project_name}.elf\" \"{build.path}/{build.project_name}.bin\""
+        },
+        {
+            "Key": "tools.openocd.cmd",
+            "Value": "bin/openocd.exe"
+        },
+        {
+            "Key": "runtime.tools.STM32Tools.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\STM32\\tools\\STM32Tools\\1.2.0"
+        },
+        {
+            "Key": "tools.avrdude.upload.pattern",
+            "Value": "\"{cmd}\" \"-C{config.path}\" {upload.verbose} -p{build.emu.mcu} -c{upload.protocol} -P{serial.port} -b{upload.speed} \"-Uflash:w:{build.path}/{build.project_name}.hex:i\""
+        },
+        {
+            "Key": "tools.openocd-withbootsize.program.params.quiet",
+            "Value": "-d0"
+        },
+        {
+            "Key": "tools.openocd-withbootsize.upload.pattern",
+            "Value": "\"{path}/{cmd}\" {upload.verbose} -s \"{path}/share/openocd/scripts/\" -f \"{runtime.platform.path}/variants/{build.variant}/{build.openocdscript}\" -c \"telnet_port disabled; program {{{build.path}/{build.project_name}.bin}} verify reset {bootloader.size}; shutdown\""
+        },
+        {
+            "Key": "upload.protocol",
+            "Value": "sam-ba"
+        },
+        {
+            "Key": "bootloader.file",
+            "Value": "zero/samd21_sam_ba.bin"
+        },
+        {
+            "Key": "runtime.tools.CMSIS-Atmel.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0"
+        },
+        {
+            "Key": "runtime.tools.arm-none-eabi-gcc-6-2017-q2-update.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\STM32\\tools\\arm-none-eabi-gcc\\6-2017-q2-update"
+        },
+        {
+            "Key": "compiler.size.cmd",
+            "Value": "arm-none-eabi-size"
+        },
+        {
+            "Key": "ide_version",
+            "Value": "10600"
+        },
+        {
+            "Key": "runtime.tools.stm32tools.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\stm32duino\\tools\\stm32tools\\2018.12.3"
+        },
+        {
+            "Key": "compiler.cpp.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "compiler.S.flags",
+            "Value": "-c -g -x assembler-with-cpp -MMD"
+        },
+        {
+            "Key": "runtime.tools.CMSIS.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0"
+        },
+        {
+            "Key": "runtime.tools.ctags-5.8-arduino11.path",
+            "Value": "C:\\Program Files (x86)\\Sysprogs\\VisualGDB\\Arduino\\tools-builder\\ctags\\5.8-arduino11"
+        }
+    ]
+}
